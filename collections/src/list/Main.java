@@ -11,5 +11,10 @@ public class Main {
         System.out.println(listaTarefa.obterNumeroTotalTarefas());
         listaTarefa.obterDescricoesTarefas();
 
+        listaTarefa.removerTarefa("Add createUser controller");
+
+        System.out.println(listaTarefa.obterNumeroTotalTarefas());
+        listaTarefa.obterDescricoesTarefas();
+
     }
 }
