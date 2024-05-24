@@ -17,7 +17,7 @@ public class CarrinhoDeCompras {
         List<Item> itensDeletar = new ArrayList<>();
         if(!itens.isEmpty()) {
             for(Item i: itens) {
-                if(i.getNome() == nome) {
+                if(i.getNome().equalsIgnoreCase(nome)) {
                     itensDeletar.add(i);
                 }
             }
