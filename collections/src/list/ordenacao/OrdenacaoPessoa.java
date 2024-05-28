@@ -1,14 +1,14 @@
-package ordenacao;
+package list.ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-public class OrdenacaoPessoas {
-
+public class OrdenacaoPessoa {
     List<Pessoa> pessoas;
 
-    public OrdenacaoPessoas() {
+    public OrdenacaoPessoa() {
         this.pessoas = new ArrayList<>();
     }
 
@@ -17,14 +17,14 @@ public class OrdenacaoPessoas {
     }
 
     public List<Pessoa> ordenarPorIdade() {
-        List<Pessoa> pessoasPorIdade = pessoas;
-        Collections.sort(pessoasPorIdade);
+        List<Pessoa> pessoasPorIdade = new ArrayList<>(pessoas);
+        Collections.sort(pessoasPorIdade, new CompararPessoaIdade());
         return pessoasPorIdade;
-    }
+    };
 
     public List<Pessoa> ordenarPorAltura() {
-        List<Pessoa> pessoasPorAltura = pessoas;
-        Collections.sort(pessoasPorAltura, new PessoaOrdenadaPorAltura());
+        List<Pessoa> pessoasPorAltura = new ArrayList<>(pessoas);
+        Collections.sort(pessoasPorAltura, new CompararPessoaAltura());
         return pessoasPorAltura;
-    }
+    };
 }

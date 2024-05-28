@@ -1,4 +1,4 @@
-package ordenacao;
+package list.ordenacao.ordenacao;
 
 public class Main {
     public static void main(String[] args) {
