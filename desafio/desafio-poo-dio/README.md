@@ -4,11 +4,11 @@ Desafio realizado durante o cruso do Santander DIO voltado ao aprendizado e prá
 
 ## 🛑 Pré-Requisitos
 
--[x] Conhecer a sintaxe Java  
--[x] Java JDK 11  
--[x] IDE para desenvolvimento Java (usarei IntelliJ)  
--[x] Git
--[X] Conta no GitHub
+- ✅ Conhecer a sintaxe Java  
+- ✅ Java JDK 11  
+- ✅ IDE para desenvolvimento Java (usarei IntelliJ)  
+- ✅ Git
+- ✅ Conta no GitHub
 
 ## 👣 Passo-a-Passo
 
